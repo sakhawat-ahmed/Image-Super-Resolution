@@ -1,0 +1,15 @@
+Image Super-Resolution Evaluation Metrics
+============================================================
+Evaluation Time: 2025-12-28 15:50:06.318931
+Scale Factor: 2
+Device: cpu
+
+============================================================
+
+edsr Results:
+----------------------------------------
+  Average PSNR: 8.51 dB
+  Average SSIM: 0.1004
+  PSNR Range: 3.96 - 20.27 dB
+  SSIM Range: 0.0203 - 0.5092
+

@@ -1,0 +1,63 @@
+======================================================================
+                    FINAL PROJECT REPORT
+               Image Super-Resolution System
+          Principles and Platforms of Deep Learning
+                    Fall Semester 2025
+======================================================================
+
+1. PROJECT OVERVIEW
+----------------------------------------------------------------------
+Date: 2025-12-28 17:32:18
+Scale Factor: 2
+Device: cpu
+Total Training Images: 800
+Total Validation Images: 100
+Patch Size: 64
+Batch Size: 8
+Learning Rate: 0.001
+
+2. MODEL ARCHITECTURES
+----------------------------------------------------------------------
+SRCNN:
+  Parameters: 69,251
+  Epochs Trained: 10
+
+EDSR:
+  Parameters: 84,995
+  Epochs Trained: 10
+
+3. EXPERIMENTAL RESULTS
+----------------------------------------------------------------------
+
+SRCNN Performance:
+  Average PSNR: 27.93 ± 2.27 dB
+  Average SSIM: 0.9533 ± 0.0326
+  Best PSNR: 31.59 dB
+  Best SSIM: 0.9753
+  PSNR Range: 21.21 - 31.59 dB
+  SSIM Range: 0.8188 - 0.9753
+
+EDSR Performance:
+  Average PSNR: 25.70 ± 1.54 dB
+  Average SSIM: 0.9646 ± 0.0302
+  Best PSNR: 28.25 dB
+  Best SSIM: 0.9853
+  PSNR Range: 22.17 - 28.25 dB
+  SSIM Range: 0.8415 - 0.9853
+
+4. CONCLUSION
+----------------------------------------------------------------------
+The SRCNN model achieved the best performance with 27.93 dB PSNR and 0.9533 SSIM.
+Both models demonstrate the effectiveness of deep learning approaches for image super-resolution tasks.
+
+5. FILES GENERATED
+----------------------------------------------------------------------
+• Trained models (in ../models/):
+  - SRCNN_final.pth
+  - EDSR_final.pth
+
+• Results (in ../results/):
+  - model_comparison.png (visual comparison)
+  - sample_images/ (sample outputs)
+  - final_report_*.txt (this report)
+  - training_plots/ (training history)

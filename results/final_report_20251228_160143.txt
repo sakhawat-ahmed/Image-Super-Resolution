@@ -1,0 +1,22 @@
+Image Super-Resolution Project Report
+============================================================
+Date: 2025-12-28 16:01:43.671211
+Scale Factor: 2
+Device: cpu
+
+============================================================
+
+Results Summary:
+----------------------------------------
+SRCNN:
+  PSNR: 26.50 dB
+  SSIM: 0.9316
+
+
+Project Configuration:
+----------------------------------------
+Batch Size: 4
+Learning Rate: 0.001
+SRCNN Epochs: 3
+EDSR Epochs: 3
+Patch Size: 32

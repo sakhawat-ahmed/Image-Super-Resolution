@@ -1,0 +1,31 @@
+{
+  "timestamp": "20251228_173218",
+  "config": {
+    "base_dataset_path": "../DIV2KDataset",
+    "train_hr_path": "../DIV2KDataset/DIV2K_train_HR",
+    "train_lr_path": "../DIV2KDataset/DIV2K_train_LR_bicubic/X2",
+    "valid_hr_path": "../DIV2KDataset/DIV2K_valid_HR",
+    "valid_lr_path": "../DIV2KDataset/DIV2K_valid_LR_bicubic/X2",
+    "scale_factor": 2,
+    "patch_size": 64,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "srcnn_epochs": 10,
+    "edsr_epochs": 10
+  },
+  "device": "cpu",
+  "results": {
+    "SRCNN": {
+      "psnr": 27.93210792541504,
+      "ssim": 0.9533419265331075,
+      "std_psnr": 2.2715084552764893,
+      "std_ssim": 0.03259278531822587
+    },
+    "EDSR": {
+      "psnr": 25.701187133789062,
+      "ssim": 0.9646101486027415,
+      "std_psnr": 1.5385105609893799,
+      "std_ssim": 0.030176419644267802
+    }
+  }
+}
