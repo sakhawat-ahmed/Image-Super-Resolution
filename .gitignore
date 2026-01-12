@@ -20,3 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+venv/
+src/__pycache__/
+DIV2KDataset/
